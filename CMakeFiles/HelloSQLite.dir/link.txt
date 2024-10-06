@@ -1,0 +1,1 @@
+/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ -Wall -std=c++17 -fallow-void-main -lm -ldl -llog -lz -static-libstdc++ CMakeFiles/HelloSQLite.dir/src/Base64.cpp.o CMakeFiles/HelloSQLite.dir/src/main.cpp.o -o HelloSQLite  /data/user/0/ru.iiec.cxxdroid/files/sysroot/lib/libsqlite3.a 
