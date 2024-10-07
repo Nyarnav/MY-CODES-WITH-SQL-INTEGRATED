@@ -1,6 +1,6 @@
 Hi my name is Van Ryan Nahine, im currently grade 12 ICT/CSS right now.
 
-I'm trying to familiarize github and i would love to try git too, sadly im only using my phone to code.
+Im using git at termux, and im trying my best to be familiar with it.
 
 i want to share my small projects in here and people might want to test it out.
 
