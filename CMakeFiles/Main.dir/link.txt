@@ -1,0 +1,1 @@
+/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ -Wall -std=c++17 -fallow-void-main -lm -ldl -llog -lz CMakeFiles/Main.dir/src/Base64.cpp.o CMakeFiles/Main.dir/src/main.cpp.o CMakeFiles/Main.dir/src/sqlite3.c.o -o Main 

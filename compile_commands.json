@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/include -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src -Wall -std=c++17 -fallow-void-main -o CMakeFiles/Main.dir/src/Base64.cpp.o -c /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/Base64.cpp",
+  "file": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/Base64.cpp"
+},
+{
+  "directory": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/include -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src -Wall -std=c++17 -fallow-void-main -o CMakeFiles/Main.dir/src/main.cpp.o -c /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/main.cpp",
+  "file": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/main.cpp"
+},
+{
+  "directory": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang  -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/include -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src -Wall -std=c99 -fallow-void-main -o CMakeFiles/Main.dir/src/sqlite3.c.o -c /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/sqlite3.c",
+  "file": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/sqlite3.c"
+}
+]

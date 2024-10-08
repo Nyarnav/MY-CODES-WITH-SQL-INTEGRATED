@@ -1,0 +1,3 @@
+/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/rebuild_cache.dir
+/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/edit_cache.dir
+/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/Main.dir
