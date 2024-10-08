@@ -1,5 +1,6 @@
 [
 {
+<<<<<<< HEAD
   "directory": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM",
   "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/include -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src -Wall -std=c++17 -fallow-void-main -o CMakeFiles/Main.dir/src/Base64.cpp.o -c /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/Base64.cpp",
   "file": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/Base64.cpp"
@@ -13,5 +14,15 @@
   "directory": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM",
   "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang  -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/include -I/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src -Wall -std=c99 -fallow-void-main -o CMakeFiles/Main.dir/src/sqlite3.c.o -c /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/sqlite3.c",
   "file": "/storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/src/sqlite3.c"
+=======
+  "directory": "/storage/emulated/0/my-FIRST PROJECT WITH DB",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  -I\"/storage/emulated/0/my-FIRST PROJECT WITH DB/include\" -I\"/storage/emulated/0/my-FIRST PROJECT WITH DB/src\" -Wall -std=c++17 -fallow-void-main -o CMakeFiles/HelloSQLite.dir/src/Base64.cpp.o -c \"/storage/emulated/0/my-FIRST PROJECT WITH DB/src/Base64.cpp\"",
+  "file": "/storage/emulated/0/my-FIRST PROJECT WITH DB/src/Base64.cpp"
+},
+{
+  "directory": "/storage/emulated/0/my-FIRST PROJECT WITH DB",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  -I\"/storage/emulated/0/my-FIRST PROJECT WITH DB/include\" -I\"/storage/emulated/0/my-FIRST PROJECT WITH DB/src\" -Wall -std=c++17 -fallow-void-main -o CMakeFiles/HelloSQLite.dir/src/main.cpp.o -c \"/storage/emulated/0/my-FIRST PROJECT WITH DB/src/main.cpp\"",
+  "file": "/storage/emulated/0/my-FIRST PROJECT WITH DB/src/main.cpp"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 }
 ]

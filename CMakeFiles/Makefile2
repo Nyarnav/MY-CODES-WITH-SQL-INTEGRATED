@@ -53,16 +53,27 @@ RM = /data/data/ru.iiec.cxxdroid/files/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM
+=======
+CMAKE_SOURCE_DIR = "/storage/emulated/0/my-FIRST PROJECT WITH DB"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "/storage/emulated/0/my-FIRST PROJECT WITH DB"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+<<<<<<< HEAD
 all: CMakeFiles/Main.dir/all
+=======
+all: CMakeFiles/HelloSQLite.dir/all
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,6 +81,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+<<<<<<< HEAD
 clean: CMakeFiles/Main.dir/clean
 .PHONY : clean
 
@@ -98,6 +110,36 @@ Main: CMakeFiles/Main.dir/rule
 CMakeFiles/Main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/clean
 .PHONY : CMakeFiles/Main.dir/clean
+=======
+clean: CMakeFiles/HelloSQLite.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HelloSQLite.dir
+
+# All Build rule for target.
+CMakeFiles/HelloSQLite.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles" --progress-num=1,2,3 "Built target HelloSQLite"
+.PHONY : CMakeFiles/HelloSQLite.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HelloSQLite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HelloSQLite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles" 0
+.PHONY : CMakeFiles/HelloSQLite.dir/rule
+
+# Convenience name for target.
+HelloSQLite: CMakeFiles/HelloSQLite.dir/rule
+.PHONY : HelloSQLite
+
+# clean rule for target.
+CMakeFiles/HelloSQLite.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/clean
+.PHONY : CMakeFiles/HelloSQLite.dir/clean
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 
 #=============================================================================
 # Special targets to cleanup operation of make.

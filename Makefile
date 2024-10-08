@@ -56,10 +56,17 @@ RM = /data/data/ru.iiec.cxxdroid/files/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM
+=======
+CMAKE_SOURCE_DIR = "/storage/emulated/0/my-FIRST PROJECT WITH DB"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "/storage/emulated/0/my-FIRST PROJECT WITH DB"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +93,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles" "/storage/emulated/0/my-FIRST PROJECT WITH DB//CMakeFiles/progress.marks"
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles" 0
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : all
 
 # The main clean target
@@ -116,6 +129,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named Main
 
 # Build rule for target.
@@ -127,13 +141,30 @@ Main: cmake_check_build_system
 Main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
+=======
+# Target rules for targets named HelloSQLite
+
+# Build rule for target.
+HelloSQLite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HelloSQLite
+.PHONY : HelloSQLite
+
+# fast build rule for target.
+HelloSQLite/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/build
+.PHONY : HelloSQLite/fast
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 
 src/Base64.o: src/Base64.cpp.o
 .PHONY : src/Base64.o
 
 # target to build an object file
 src/Base64.cpp.o:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/Base64.cpp.o
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/Base64.cpp.o
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : src/Base64.cpp.o
 
 src/Base64.i: src/Base64.cpp.i
@@ -141,7 +172,11 @@ src/Base64.i: src/Base64.cpp.i
 
 # target to preprocess a source file
 src/Base64.cpp.i:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/Base64.cpp.i
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/Base64.cpp.i
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : src/Base64.cpp.i
 
 src/Base64.s: src/Base64.cpp.s
@@ -149,7 +184,11 @@ src/Base64.s: src/Base64.cpp.s
 
 # target to generate assembly for a file
 src/Base64.cpp.s:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/Base64.cpp.s
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/Base64.cpp.s
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : src/Base64.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -157,7 +196,11 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.o
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/main.cpp.o
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -165,7 +208,11 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.i
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/main.cpp.i
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,6 +220,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
@@ -200,6 +248,11 @@ src/sqlite3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/sqlite3.c.s
 .PHONY : src/sqlite3.c.s
 
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloSQLite.dir/build.make CMakeFiles/HelloSQLite.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,16 +261,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... Main"
+=======
+	@echo "... HelloSQLite"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 	@echo "... src/Base64.o"
 	@echo "... src/Base64.i"
 	@echo "... src/Base64.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+<<<<<<< HEAD
 	@echo "... src/sqlite3.o"
 	@echo "... src/sqlite3.i"
 	@echo "... src/sqlite3.s"
+=======
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 .PHONY : help
 
 

@@ -72,7 +72,13 @@ endif()
 
 
 
+<<<<<<< HEAD
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include;/data/data/ru.iiec.cxxdroid/files/lib/clang/9.0.1/include;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/aarch64-linux-android;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "m;dl;log;z;gcc;dl;c;gcc;dl")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/data/user/0/ru.iiec.cxxdroid/files/lib/gcc/aarch64-linux-android/4.9.x;/data/user/0/ru.iiec.cxxdroid/files/aarch64-linux-android/lib;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/lib")
+=======
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include;/data/data/ru.iiec.cxxdroid/files/lib/clang/9.0.1/include;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/aarch64-linux-android;/data/user/0/ru.iiec.cxxdroid/files/sysroot/include;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "m;dl;log;z;gcc;dl;c;gcc;dl")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/data/user/0/ru.iiec.cxxdroid/files/lib/gcc/aarch64-linux-android/4.9.x;/data/user/0/ru.iiec.cxxdroid/files/aarch64-linux-android/lib;/data/user/0/ru.iiec.cxxdroid/files/sysroot/lib;/data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/lib")
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/rebuild_cache.dir
 /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/edit_cache.dir
 /storage/emulated/0/my-PROJECT-INVENTORY-SYSTEM/CMakeFiles/Main.dir
+=======
+/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles/rebuild_cache.dir
+/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles/edit_cache.dir
+/storage/emulated/0/my-FIRST PROJECT WITH DB/CMakeFiles/HelloSQLite.dir
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b

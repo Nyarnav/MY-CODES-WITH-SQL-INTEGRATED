@@ -20,6 +20,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Compiler/Clang-CXX.cmake"
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Compiler/Clang.cmake"
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+<<<<<<< HEAD
+=======
+  "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+  "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+  "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/FindSQLite3.cmake"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Platform/Linux-Clang-C.cmake"
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Platform/Linux-Clang-CXX.cmake"
   "/data/data/ru.iiec.cxxdroid/files/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake"
@@ -46,5 +52,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+<<<<<<< HEAD
   "CMakeFiles/Main.dir/DependInfo.cmake"
+=======
+  "CMakeFiles/HelloSQLite.dir/DependInfo.cmake"
+>>>>>>> 32d63524b593a41ef1f07f528505e3f5c751204b
   )
